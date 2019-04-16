@@ -58,6 +58,15 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
     background: none;
 }
+.navbar-brand {
+    position: relative
+}
+
+.navbar-brand img {
+    position: absolute;
+    top: 50%;
+    margin-top: -44%;
+}
 /* ==========================================================================
   Layout 
    ========================================================================== */
@@ -86,6 +95,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1em;
     text-transform: uppercase;
 }
+
 #page-welcome header p {
     font-size: 2em;
     display: inline-block;
@@ -473,6 +483,9 @@ label.valid {
 }
 .btn-linkedin:hover {
     color: #015786;
+}
+.btn-github:hover {
+    color: #000000;
 }
 .btn-pinterest:hover {
     color: #CA2128;
