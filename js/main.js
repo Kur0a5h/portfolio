@@ -8,7 +8,15 @@ $(document).ready(function() {
         }, 500);
         return false;
     });
-
+    
+    $('.navbar-nav > li > a').click(function () {
+        $('html, body').animate({
+            scrollTop: $($(this).attr('href')).offset().top
+        }, 500);
+        $('.navbar-collapse').removeClass('in');
+        $('.navbar-collapse').attr('aria-expanded', false);
+        return false;
+    })
     /* For Bootstrap current state on portfolio sorting */
 
     $('ul.nav-pills li a').click(function(e) {
