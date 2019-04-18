@@ -103,8 +103,8 @@ $(document).ready(function() {
 	    $('#page-welcome').vegas({
         slides: [
             { src: 'img/slider/IMG_0459.jpg' },
-            { src: 'img/slider/02.jpg' },
-            { src: 'img/slider/03.jpg' },
+            { src: 'img/slider/queen_marie.JPG' },
+            { src: 'img/slider/long_beach.JPG' },
 			{ src: 'img/slider/04.jpg' }
         ],
     overlay: true
