@@ -25,7 +25,7 @@ var portfolioInfo = {
         // 'tech_description': "I used Wordpress as the CMS, Content Management System so others could also contribute content to the website. I incorporated a child theme to customize the CSS and add additional features to the homepage. I added the static background and sponsors bar using a php file. I currently maintain the website by updating content when needed and performing backups of the website.",
         // 'other_description': "Mountain biking is a big part of my life, and I am involved with the local group in Santa Barbara, updating their website and email and social media marketing. One of the projects was to build a new website to promote the building of pumptracks in the community. ",
         // 'technologies': 'CSS, HTML, Wordpress, sFTP',
-        'liveSiteUrl': 'https://kuroash.com/Student-Grade-Table',
+        'liveSiteUrl': 'http://www.kuroash.com/Student-Grade-Table',
         'githubUrl': 'https://github.com/kur0a5h/Student-Grade-Table',
         'imageSrc': 'img/sgt_preview.png'
     },
@@ -35,7 +35,7 @@ var portfolioInfo = {
         // 'tech_description': "Beets and Eats uses data from GoogleMaps, Ticketmaster and Yelp to populate a map with restaurants and bars surrounding a desired event venue. We used AJAX to make cross-origin requests and passed specific data such as a zip code for the location. To use the application, users enter a location and date in which we request information from Ticketmaster to populate a list of all the events occuring on the specified date. When users click on the event, the website scrolls automatically to the map, which becomes populated with nearby restaurants and lounges from the Yelp API. We used closures to encapsulate data for each element on the page so when it is clicked, it shows the correct data. Users can click on the icons to learn more about each location. ",
         // 'other_description': "The project was accomplished during a 2 day Hackathon. The initial preparation was creating quick wireframes and a SCRUM list of all the desired features. We created a repository on GitHub, and included a Javascript file incorporating JSDocs to specify the location and description for each function to be written. Once set up, we delegated tasks and a sprint using Meistertask. We used Git as version control, and worked off of a development branch with seperate branches for each feature. By using these task managing systems, we were able to produce a functioning and appealing web application!",
         // 'technologies': 'HTML, CSS, JQuery, AJAX, Google Maps API, Yelp API, Ticketmaster API, Bootstrap',
-        'liveSiteUrl': 'https://bookbird.store',
+        'liveSiteUrl': 'http://www.bookbird.store',
         'githubUrl': 'https://github.com/Jsalisbury3/BookBird',
         'imageSrc': 'img/bookbird_preview.png'
     },
