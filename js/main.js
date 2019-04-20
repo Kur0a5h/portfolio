@@ -21,7 +21,7 @@ var portfolioInfo = {
     },
     'sgt': {
         'title': 'Student Grade Table',
-        'short_description': "An application allowing users to track and edit student data",
+        'short_description': "A content management system that allows users to create, update and delete student grade information in a database",
         // 'tech_description': "I used Wordpress as the CMS, Content Management System so others could also contribute content to the website. I incorporated a child theme to customize the CSS and add additional features to the homepage. I added the static background and sponsors bar using a php file. I currently maintain the website by updating content when needed and performing backups of the website.",
         // 'other_description': "Mountain biking is a big part of my life, and I am involved with the local group in Santa Barbara, updating their website and email and social media marketing. One of the projects was to build a new website to promote the building of pumptracks in the community. ",
         // 'technologies': 'CSS, HTML, Wordpress, sFTP',
