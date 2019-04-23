@@ -595,6 +595,17 @@ label.valid {
   color: #fff;
   padding: 4px 18px;
 }
+
+.sendingEmailGif{
+    display: none;
+    position:absolute;
+    margin-top: 10%;
+    margin-left:2%;
+    width:90%;
+    border: solid white;
+    z-index:2;
+}
+
 /* ==========================================================================
    Charts   
    ========================================================================== */

@@ -53,18 +53,18 @@ var portfolioInfo = {
 $(document).ready(function() {
 
 
-    /* Scroll hire me button to contact page */
+    /* Scroll about me button to profile page */
     $('.hire-me').click(function() {
         $('html, body').animate({
             scrollTop: $($(this).attr('href')).offset().top
-        }, 500);
+        }, 300);
         return false;
     });
     
     $('.navbar-nav > li > a').click(function () {
         $('html, body').animate({
             scrollTop: $($(this).attr('href')).offset().top
-        }, 500);
+        }, 300);
         $('.navbar-collapse').removeClass('in');
         $('.navbar-collapse').attr('aria-expanded', false);
         return false;

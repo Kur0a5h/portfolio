@@ -16,14 +16,17 @@ $(function() {
            // Check for white space in name for Success/Fail message
         if (firstName.indexOf(' ') >= 0) {
 	   firstName = name.split(' ').slice(0, -1).join(' ');
-         }        
+         }
+    $('.sendingEmailGif').css('display', 'block');        
 	 $.ajax({
                 url: "php_mailer/mail_handler.php",
             	type: "POST",
             	data: {name: name, email: email, message: message},
             	cache: false,
             	success: function() {  
-            	// Success message
+               // Success message
+                  $('.sendingEmailGif').css('display', 'none');        
+
             	   $('#success').html("<div class='alert alert-success'>");
             	   $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             		.append( "</button>");
