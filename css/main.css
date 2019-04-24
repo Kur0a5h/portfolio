@@ -597,11 +597,12 @@ label.valid {
 }
 
 .sendingEmailGif{
-    display: none;
+    display: block;
     position:absolute;
-    margin-top: 10%;
-    margin-left:2%;
-    width:90%;
+    margin-top: 30%;
+    margin-left:25%;
+
+    width:40%;
     border: solid white;
     z-index:2;
 }
