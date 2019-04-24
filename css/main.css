@@ -156,7 +156,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 96%;
     opacity: 0;
     transition: .3s ease;
-    background-color: #3498db8a;
+    background-color: #3498db;
 }
 
 .portfolio-div:hover .overlay {
