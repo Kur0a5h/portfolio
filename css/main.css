@@ -603,7 +603,7 @@ label.valid {
     margin-left:2%;
     width:90%;
     border: solid white;
-    z-index:2;
+    z-index:3;
 }
 
 /* ==========================================================================
